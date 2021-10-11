@@ -1,12 +1,66 @@
 .App {
   text-align: center;
 }
+.headline{text-align: center;}
+.p1 {
+  padding-bottom: 30px;
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  line-height: 1.4;
+}
+.p2 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: serif;
+  color: rgb(94, 83, 83);
+  text-align: center;
+  line-height: 1.4;
+}
 
+#spin {
+  color:red;
+}
+#spin:after {
+  content:"";
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% { content:"Human Centric";}
+  10% { content:"Proficient";}
+  20% { content:"Expert";}
+  30% { content:"Ingenious";}
+  40% { content:"Human Centric";}
+  50% { content:"Proficient";}
+  60% { content:"Expert";}
+  70% { content:"Ingenious";}
+  80% { content:"Human Centric";}
+  90% { content:"Proficient";}
+  100% { content:"Expert";}
+}
+#spin{
+  font-size: 6.5rem;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  line-height: 1.4;
+} 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.bg-myRed{
+  background-color: crimson;
+}
 
+.content{
+  padding: 12px;
+  height: 3000px;
+}
+
+.coloring{
+  color: black;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

@@ -1,0 +1,402 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+.slider-title svg {
+    vertical-align: initial;
+}
+/* headline-section */
+.headline{
+  background-image: url("./images/ut-dot-dark-1.svg");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  text-align: center;
+   
+  padding-top: 8rem;}
+.p1 {
+  padding-bottom: 30px;
+  font-size: 18px;
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.p2 {
+  padding-top: 30px;
+  font-size: 30px;
+  font-family: serif;
+  color: black;
+  text-align: center;
+  line-height: 1.4;
+}
+
+#spin {
+  color:red;
+}
+#spin:after {
+  content:"";
+  animation: spin 3s linear infinite;
+}
+@keyframes spin {
+  0% { content:"Human Centric";}
+  10% { content:"Proficient";}
+  20% { content:"Expert";}
+  30% { content:"Ingenious";}
+  40% { content:"Human Centric";}
+  50% { content:"Proficient";}
+  60% { content:"Expert";}
+  70% { content:"Ingenious";}
+  80% { content:"Human Centric";}
+  90% { content:"Proficient";}
+  100% { content:"Expert";}
+}
+#spin{
+  font-size: 6.5rem;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  line-height: 1.4;
+} 
+/* slider-title */
+.slider-title {
+    text-align: center;
+    padding: 4rem  0 0;
+  }
+
+  /* ut-section */
+
+  .ut-section {
+    background-image: url("./images/ut-dot-dark-1.svg");
+    background-repeat: no-repeat;
+    background-position-x: 30px;
+    margin: 8rem 0;
+ 
+  }
+  .ut-section .ut-para {
+    font-size: 19px;
+    color: rgba(69, 69, 69, 1);
+  }
+  
+  .ut-section h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 3rem 0;
+  }
+  
+  /* parallax-img */
+  .ut-section-2 {
+    margin: 5rem 0;
+  }
+  
+  .parallax-img {
+    width: 100%;
+  }
+  .parallax-img img {
+    width: 100%;
+  }
+  /* our services */
+.service-section {
+    text-align: left;
+  }
+  .service-section a{
+    text-decoration: none;
+    color:grey;
+  }
+  .service-section a:hover{
+    
+    color: black;
+  }
+  .our-service h1 {
+    font-weight: 800;
+    padding: 20px 20px;
+    font-size: 45px;
+    text-align: center;
+  }
+  .our-service p {
+    font-size: 19px;
+    text-align: center;
+  }
+  
+  .circle-icon{
+      vertical-align: middle;
+    color: blue;
+    background-color: white;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  .circle-icon:hover{
+  
+    transition: margin-right 2s;    
+  }
+
+/* service icon */
+.service-icon {
+    border-right: 1px solid #dddddd;
+    padding: 0 20px;
+  }
+  .service-icon:last-child {
+    border: none;
+  }
+  .service-icon img {
+    width: 20%;
+  }
+  .service-icon h1 {
+    padding-top: 35px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .service-icon p {
+    color: grey;
+    line-height: 26px;
+    font-size: 15px;
+  }
+  .service-icon span {
+    font-size: 14px;
+  }
+  .service-icon svg{
+      font-size:11px;
+      color: blue;
+      vertical-align: middle;
+  }
+
+/* upgrade */
+.section2 {
+    margin: 8rem 0;
+    background-color: #bad8ff;
+  }
+  .section2 a{
+    text-decoration: none;
+    color: grey;
+  }
+  .section2 a:hover{
+    color: black;
+  }
+  .upgrade-icon {
+    padding: 0 20px;
+  }
+  .upgrade-icon-2 {
+    padding: 3rem 0;
+  }
+  .upgrade-para h1 {
+    font-weight: 800;
+    padding: 20px 0;
+    font-size: 45px;
+  }
+  
+  .upgrade-para p {
+    font-size: 18px;
+    color: #444;
+  }
+  .upgrade-section {
+    background-image: url("./images/ut-dot-dark-1.svg");
+    background-position: left center;
+  }
+  .upgrade-para {
+    margin: 5rem 0;
+  }
+  
+  .upgrade-icon i {
+    color: blue;
+    background-color: #bad8ff;
+    font-size: 13px;
+    margin-left: 5px;
+  }
+  .upgrade-icon img {
+    width: 15%;
+  }
+  .upgrade-icon h1 {
+    padding-top: 35px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  .upgrade-icon p {
+    color: grey;
+    line-height: 26px;
+    font-size: 15px;
+  }
+  .upgrade-icon span {
+    font-size: 14px;
+  }
+  .upgrade-icon svg, .upgrade-icon-2 svg{
+      color:blue;
+      font-size: 11px;
+  }
+  .ut-section-brand img{
+width: 100%;
+
+  }/* brand-img */
+.brand-img {
+  padding-right: 65px;
+}
+.ut-brand h1 {
+  font-weight: 800;
+  padding: 20px 0;
+  font-size: 45px;
+}
+.ut-brand {
+  margin: 20rem 0;
+}
+.ut-brand p {
+  color: #444;
+  font-size: 19px;
+}
+/* our awesome clients */
+.our-client p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.client-icons img {
+  width: 65%;
+}
+.desktop-disable {
+  display: none;
+}
+/* lets work together */
+.section-3 {
+  width: 100%;
+  padding: 0px 0;
+}
+
+.wrapper-work-heading {
+  background-image: url("./images/18TP-Con2-pic4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10rem 0;
+}
+.wrapper-work-heading h1 {
+  font-size: 86px;
+  font-weight: 800;
+  color: white;
+}
+.wrapper-work-heading p {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  font-family: sarif;
+}
+.wrapper-work-heading button {
+  outline: none;
+  background-color: rgb(55, 114, 255);
+  color: white;
+  border: none;
+  font-weight: 550;
+  padding: 10px 20px;
+}
+.space {
+  margin: 0 1rem;
+}
+
+/* services page */
+.h1{font-size: 6.5rem;
+  font-weight: 800;
+  color: black;
+  text-align: center;
+  line-height: 1.4;}
+  .service-ut-section img{
+    padding-top: 340px !important;width: 100%;
+    padding-right: 20px !important;
+    padding-bottom: 340px !important;
+    padding-left: 20px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+  }
+  .service-ut-section .img-section-1{
+    background-image: url('./images/hal-gatewood-tZc3vjPCk-Q-unsplash-1.jpg');
+  }
+  .service-ut-section .img-section-2{
+    background-image: url('./images/mobile-application-development.jpg');
+  }
+  .service-ut-section .img-section-3{
+    background-image: url('./images/search-engine-optimization.jpg');
+  }
+  .service-ut-section .img-section-4{
+    background-image: url('./images/ecommerce-solutions.jpg');
+  }
+
+
+
+.service-ut{
+  padding: 10rem 4rem 6rem 4rem;
+}
+.service-ut h1{
+  font-weight: 800;
+font-size: 3.3rem;
+}
+.service-ut p{
+  font-size: 19px;
+padding: 2rem 3rem 0.5rem 3rem;
+}
+
+.service-work-together{
+padding-top: 12rem;
+}
+/* work-section-page */
+.work-section-page img{
+width: 100%;
+
+}
+.work-section-page p{font-size: 17px;padding-top:1rem;margin-bottom: 0;
+  font-weight: 500;}
+/* .hover11 figure img {
+	width: 300px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover11 figure:hover img {
+	width: 350px;
+} */
+.filter-title p{
+color:grey;
+font-style: italic;
+font-size: 13px;
+cursor: pointer;
+}
+.filter-title p:hover{
+color:black;
+
+}
+/* Css Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  -moz-animation-delay:1.2s;
+  animation-delay: 1.2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 1.6s;
+}
+.fade-in.four {
+  -webkit-animation-delay: 1.6s;
+  -moz-animation-delay: 1.6s;
+  animation-delay: 2.0s;
+}
+
